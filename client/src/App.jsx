@@ -5,6 +5,9 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { Forgot } from "./components/forgot.component";
+import { Reset } from "./components/reset.component";
+import SignUp from "./components/signUp";
 
 const App = () => {
   const [user, setUser] = useState(null);
@@ -39,7 +42,19 @@ const App = () => {
       <>
         <Navbar user={user} />
         <Routes>
+          <Route
+            path="/forgot"
+            element={user ? <Navigate to="/" /> : <Forgot />}
+          />
+          <Route
+            path="/reset"
+            element={user ? <Navigate to="/" /> : <Reset />}
+          />
           <Route path="/" element={<Home />} />
+          <Route
+            path="/signup"
+            element={user ? <Navigate to="/" /> : <SignUp />}
+          />
           <Route
             path="/login"
             element={user ? <Navigate to="/" /> : <Login />}

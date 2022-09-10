@@ -1,0 +1,42 @@
+[
+  {
+    "ID": 1,
+    "Name": "ASPIRIN",
+    "Generic name": "Acetylsalicylic acid",
+    "Packaging Size": "30x",
+    "Strength": "500 mg",
+    "Shape": "Tablet"
+  },
+  {
+    "ID": 2,
+    "Name": "PARACETAMOL",
+    "Generic name": "Acetaminophen",
+    "Packaging Size": "20x",
+    "Strength": "500 mg",
+    "Shape": "Tablet"
+  },
+  {
+    "ID": 3,
+    "Name": "XANAX",
+    "Generic name": "Alprazolam",
+    "Packaging Size": "50x",
+    "Strength": "0,25 mg",
+    "Shape": "Tablet"
+  },
+  {
+    "ID": 4,
+    "Name": "DEEP RELIEF",
+    "Generic name": "Methyl salicylate topical",
+    "Packaging Size": "1x",
+    "Strength": "100g",
+    "Shape": "Gel"
+  },
+  {
+    "ID": 5,
+    "Name": "VITAMIN C",
+    "Generic name": "Ascorbic acID",
+    "Packaging Size": "20x",
+    "Strength": "100g",
+    "Shape": "Effervescent tablets"
+  }
+]

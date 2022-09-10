@@ -1,4 +1,4 @@
-import Table2 from "../components/Table";
+import Table2 from "../table/Table";
 
 const Dashboard = () => {
   return (
